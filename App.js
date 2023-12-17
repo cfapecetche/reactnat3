@@ -8,6 +8,13 @@ import { useFonts } from "expo-font"
 const  App = () => {
   const [categorySelected,setCategorySelected] = useState("")
   
+  const [fontLoaded] = useFonts({
+    Font1:require("./assets/Fonts/Tonight-Friend.otf")
+  })
+
+  if(!fontLoaded) return null
+
+  
     
   return (
     <View style={styles.container}>

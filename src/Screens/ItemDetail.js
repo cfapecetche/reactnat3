@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 const ItemDetail = () => {
   return (
     <View styles={styles.container}>
-      <Text>ItemDetail</Text>
+      <Text >ItemDetail</Text>
     </View>
   )
 }
@@ -17,6 +17,6 @@ const styles = StyleSheet.create({
     alignItems:"center"
 
 
-   }  
+   }
 
 })

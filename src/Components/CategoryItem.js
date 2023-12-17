@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
 
   },
   text:{
+    fontFamily:'Font1',
     color:"white"
 
   }

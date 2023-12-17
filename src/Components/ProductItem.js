@@ -34,7 +34,13 @@ const styles = StyleSheet.create({
 image:{
     width:50,
     height:50
-}
+},
+
+   text:{
+    fontSize:20,
+    fontFamily:"Font1"
+
+  }  
     
 
 
